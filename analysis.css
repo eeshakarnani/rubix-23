@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+#sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    height: 177px;
+}
+#sec1 div{
+    margin-top: 2px;
+}
+#p1{
+    font-size: 2rem;
+}
+#p2{
+    font-size: 1.5rem;
+}
+#sec1::before{
+    content: "";
+    background: url('img6.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.webdes{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+}
