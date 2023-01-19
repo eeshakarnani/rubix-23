@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#webname img{
+    height: 159px;
+    width: 179px;
+    padding: 4px 12px;
+    margin: 1px 4px;
+}
+#webname p{
+    color: black;
+}
+
+#webname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#webname::before{
+    content:"";
+    background-color: #f8e3e3;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+}
+
+#nav::before{
+    content:"";
+    background-color: rgb(51, 6, 72);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+#nav li{
+    list-style: none;
+}
+
+#nav ul li a{
+    display: block;
+    border-radius: 9px;
+    text-decoration: none;
+    margin: 4px 20px;
+    padding: 4px 20px;
+    color: white;
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#information{text-align: center ;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}
+
+#contactimg{
+    display: flex;
+}

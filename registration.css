@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #top{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 199vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#top::before{
+    content:"";
+    background: url(img5.jpg) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width:200vh;
+    opacity: 0.6;
+}
+
+p{
+    font-size: 3.5rem;
+    position: absolute;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.design{
+    margin: 8px;
+    padding: 8px;
+} */
+#body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#body1::before{
+    content:"";
+    background: url(img5.jpg) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    opacity: 0.4;
+}
+
+body p{
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', serif;
+}
+body input,textarea{
+    margin-top: 10px;
+}
+#name{
+    width: 389px;
+    height: 28px;
+}
+#email{
+    width:369px;
+    height: 28px;
+}
+#f1{
+    margin-left: 34px;
+    
+}
+#female{
+    width: 60px;
+}
+#male{
+    width: 60px;
+}
+#others{
+    width: 60px;
+}
+#dob{
+    width: 339px;
+    height: 28px;
+}
+#profession{
+    width: 358px;
+    height: 28px;
+}
+#submit{
+    width: 437px;
+    height: 28px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
