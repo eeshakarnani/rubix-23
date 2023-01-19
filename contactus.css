@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#webname img{
+    height: 159px;
+    width: 179px;
+    padding: 4px 12px;
+    margin: 1px 4px;
+}
+#webname p{
+    color: black;
+}
+
+#webname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#webname::before{
+    content:"";
+    background-color: #f8e3e3;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+}
+
+#nav::before{
+    content:"";
+    background-color: rgb(51, 6, 72);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+#nav li{
+    list-style: none;
+}
+
+#nav ul li a{
+    display: block;
+    border-radius: 9px;
+    text-decoration: none;
+    margin: 4px 20px;
+    padding: 4px 20px;
+    color: white;
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#information{text-align: center ;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}
+
+.head{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+}
+
+
+.imgp{
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
+.phone{
+    float:left;
+    margin-left: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+/* .containter2{
+    background-color: #f8e3e3;
+    display: flex;
+} */
+.imge{
+    float: right;
+
+}
+.email{
+    float: right;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+#information{
+    background-color: #f8e3e3 ;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.form1{
+    border: 1rem solid ;
+    border-color: rgb(191, 161, 221);
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+label{
+    display: block;
+    width: 100%;
+}
+.button{
+    background: rgb(191, 161, 221);
+    padding: 0.5rem;
+    color: seashell;
+    font-family: 'Bree Serif', serif;
+    
+
+}
