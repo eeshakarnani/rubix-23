@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#webname img{
+    height: 159px;
+    width: 179px;
+    padding: 4px 12px;
+    margin: 1px 4px;
+}
+#webname p{
+    color: black;
+}
+
+#webname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#webname::before{
+    content:"";
+    background-color: #f8e3e3;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+}
+
+#nav::before{
+    content:"";
+    background-color: rgb(51, 6, 72);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+#nav li{
+    list-style: none;
+}
+
+#nav ul li a{
+    display: block;
+    border-radius: 9px;
+    text-decoration: none;
+    margin: 4px 20px;
+    padding: 4px 20px;
+    color: white;
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#information{text-align: center ;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}
+
+.head{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+}
+
+.subhead1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+
+}
+
+.coun1{
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+
+}
+.priya{
+    float:left;
+    margin-left: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+.priya1{
+    float:left;
+    margin-left: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.coun2{
+    float: right;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+}
+.riya{
+    float: right;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.riya1{
+    float: right;
+    margin-left: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.subhead2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+
+}
+
+#news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    background-color:  #b28ed3;
+    border: mediumpurple;
+    border-radius: 15px;
+    margin: 30px;
+
+}
+.help1{
+    margin-right: 50px;
+}
+.help2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.help3{
+    margin-left: 50px;
+}
